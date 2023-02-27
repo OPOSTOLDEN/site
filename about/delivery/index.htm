@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
+<head>
+<title>Доставка</title>
+<script type="text/javascript" src="../../buyme/js/jquery.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+<link rel="icon" href="../../favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="женская одежда, мужская одежда, спортивная одежда, тапочки">
+<meta name="description" content="Мы предлагаем широкий ассортимент качественной одежды по адекватным ценам.">
+<link href="../../bitrix/js/main/core/css/core.min.css?16076364022854" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':{'GydHei':'d41d8cd98f00','sender-subscribe':'f74192d47543'},'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'120'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+
+
+<link href="../../bitrix/css/main/bootstrap.min.css?1607636209121326" type="text/css" rel="stylesheet">
+<link href="../../bitrix/css/main/font-awesome.min.css?160763620923748" type="text/css" rel="stylesheet">
+<link href="../../bitrix/cache/css/s1/eshop_bootstrap_v4/template_a3a7bd5550645994d9469bc8ccaa1c42/template_a3a7bd5550645994d9469bc8ccaa1c42_v1.css?1654155663106881" type="text/css" data-template-style="true" rel="stylesheet">
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="../../bitrix/js/main/core/core.js?1677063881502601"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript" src="../../bitrix/cache/js/s1/eshop_bootstrap_v4/kernel_main/kernel_main_v1.js?1654155655150918"></script>
+<script type="text/javascript" src="../../bitrix/js/main/core/core_db.min.js?160763626510247"></script>
+<script type="text/javascript" src="../../bitrix/js/main/core/core_ls.min.js?16076362667365"></script>
+<script type="text/javascript" src="../../bitrix/js/main/core/core_frame_cache.min.js?160763626610967"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/components/bitrix/menu/templates/catalog_horizontal/script.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/components/bitrix/menu/templates/catalog_horizontal/style.css','/bitrix/components/bitrix/menu/templates/catalog_horizontal/themes/blue/colors.css','/bitrix/components/bitrix/sender.subscribe/templates/.default/style.css','/bitrix/components/bitrix/eshop.socnet.links/templates/big_squares/style.css','/bitrix/templates/eshop_bootstrap_v4/template_styles.css','/bitrix/templates/eshop_bootstrap_v4/colors.css']); </script>
+
+
+<script type="text/javascript" src="../../bitrix/cache/js/s1/eshop_bootstrap_v4/template_247d36ce29d21131617e24c98fbe9dee/template_247d36ce29d21131617e24c98fbe9dee_v1.js?16541556434561"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "50ace8ac2be87abbd56b0957699765ba"]); _ba.push(["host", "uvmart.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+	
+
+<script type="text/javascript" src="../../buyme/js/buyme_consultation.js"></script>
+<link rel="stylesheet" type="text/css" href="/buyme/style.css"> 
+
+</head>
+<body class="bx-background-image bx-theme-blue"> 
+<div class="cvetomuzyka">
+<div class="premium"><h1 class="title">Доставка</h1> </div> 
+<div class="top"> недорого по низкой цене со скидкой 10% в 2023 году </div> 
+
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(70792432, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="../../watch/70792432/1.gif" style="position:absolute; left:-9999px;" alt=""></div></noscript> 
+ </div>
+
+
+<div id="panel"></div>
+<div id="bxdynamic_GydHei_start" style="display:none"></div><div id="bxdynamic_GydHei_end" style="display:none"></div><div class="bx-wrapper" id="bx_eshop_wrap">
+	<header class="bx-header">
+		<div class="bx-header-section container">
+			<div class="gm row">
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> 
+					<div class="bx-logo">
+						<a class="bx-logo-block hidden-xs" href="../../index.htm">
+							<img src="../../include/logo.png" class="logo1">						</a>
+						<a class="bx-logo-block hidden-lg hidden-md hidden-sm text-center" href="../../index.htm">
+							<img src="../../include/logo_mobile.png" class="title"> <img src="../../include/logo_mobile7.png" class="titles7">						</a>
+					</div> 
+					<div class="j5"> </div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+					<a href="tel:+79608810162" rel="nofollow"> <div class="bx-inc-orginfo">
+						<div>
+							<span class="bx-inc-orginfo-phone"><i class="fa fa-phone"></i> <noindex> 8 (960) 881 01 62 <br>
+ 8 (909) 380 80 35 <br> </noindex> </span>
+						</div>
+						</div> </a> 
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+					<div class="bx-worktime">
+						<div class="bx-worktime-prop">
+							<!-- <div style="width:349px;"> Всего в прайс-листе представлено: <b>15759 товаров</b> </div> --> <b> Бесплатная доставка </b> <br>
+ <!-- <div style="width:349px; font-weight: 700; ">
+	   курьером, почтой, ТК 
+</div>  --> Срок доставки: от 1 дня. <br>
+ Время работы: Пн-Вс 09-19&nbsp;<br>
+ ООО&nbsp;«Технологии <abbr title="Недорогие и профессиональные варианты ультрафиолетовых светильников">НПВЦ</abbr>»<br>
+<div class="bottom">
+ <span class="tooltip5 anima" tabindex="0"> <img alt="Доставка дешевле" src="../../question.png" border="0"><span><b>Доставка дешевле со скидкой 10%</b>! Обратный звонок! </span> </span>
+	<div id="show" class="lineline call_btn_price b1c price7" title="Обратный звонок">
+		 Хотите еще дешевле?
+	</div>
+ <br>
+</div>
+ <br>						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 hidden-xs">
+					<table border="0" cellspacing="0" cellpadding="2" class="top5">
+      <tbody><tr> <td width="74" rowspan="3" valign="top">
+<span class="btn btn-price btn-price_big 
+btn-price_stock-in advantage">Без предоплаты</span>
+<span class="btn btn-price btn-price_big btn-price_stock-in advantage">Бесплатная доставка</span> 
+<span class="btn btn-price btn-price_big btn-price_stock-in advantage">Оплата при получении</span></td>
+        <td width="75" rowspan="3" valign="top">&nbsp;</td>
+      </tr>
+    </tbody></table>
+
+<!-- <font color="#FF0000">'bitrix:sale.basket.basket.line' is not a component</font> -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 hidden-xs">
+					<div class="bx-top-nav bx-blue" id="catalog_menu_LkGdQn">
+	<nav class="bx-top-nav-container" id="cont_catalog_menu_LkGdQn">
+		<ul class="bx-nav-list-1-lvl" id="ul_catalog_menu_LkGdQn">
+		     <!-- first level-->
+						<li class="bx-nav-1-lvl bx-nav-list-0-col " onmouseover="BX.CatalogMenu.itemOver(this);" onmouseout="BX.CatalogMenu.itemOut(this)" onclick="if (BX.hasClass(document.documentElement, 'bx-touch')) obj_catalog_menu_LkGdQn.clickInMobile(this, event);">
+				<a href="../../index.htm">
+					<span>
+						Главная											</span>
+				</a>
+						</li>
+		     <!-- first level-->
+						<li class="bx-nav-1-lvl bx-nav-list-0-col " onmouseover="BX.CatalogMenu.itemOver(this);" onmouseout="BX.CatalogMenu.itemOut(this)" onclick="if (BX.hasClass(document.documentElement, 'bx-touch')) obj_catalog_menu_LkGdQn.clickInMobile(this, event);">
+				<a href="../../catalog/neonovaya_podsvetka/index.htm">
+					<span>
+						НЕОНОВАЯ ПОДСВЕТКА											</span>
+				</a>
+						</li>
+		     <!-- first level-->
+						<li class="bx-nav-1-lvl bx-nav-list-0-col " onmouseover="BX.CatalogMenu.itemOver(this);" onmouseout="BX.CatalogMenu.itemOut(this)" onclick="if (BX.hasClass(document.documentElement, 'bx-touch')) obj_catalog_menu_LkGdQn.clickInMobile(this, event);">
+				<a href="../../catalog/ultrafioletovaya_podsvetka/index.htm">
+					<span>
+						УЛЬТРАФИОЛЕТОВАЯ ПОДСВЕТКА											</span>
+				</a>
+						</li>
+		     <!-- first level-->
+						<li class="bx-nav-1-lvl bx-nav-list-0-col " onmouseover="BX.CatalogMenu.itemOver(this);" onmouseout="BX.CatalogMenu.itemOut(this)" onclick="if (BX.hasClass(document.documentElement, 'bx-touch')) obj_catalog_menu_LkGdQn.clickInMobile(this, event);">
+				<a href="../../catalog/ultrafioletovye_lampy/index.htm">
+					<span>
+						УЛЬТРАФИОЛЕТОВЫЕ ЛАМПЫ											</span>
+				</a>
+						</li>
+		     <!-- first level-->
+						<li class="bx-nav-1-lvl bx-nav-list-0-col " onmouseover="BX.CatalogMenu.itemOver(this);" onmouseout="BX.CatalogMenu.itemOut(this)" onclick="if (BX.hasClass(document.documentElement, 'bx-touch')) obj_catalog_menu_LkGdQn.clickInMobile(this, event);">
+				<a href="../../catalog/ultrafioletovye_svetilniki/index.htm">
+					<span>
+						УЛЬТРАФИОЛЕТОВЫЕ СВЕТИЛЬНИКИ											</span>
+				</a>
+						</li>
+				</ul>
+		<div style="clear: both;"></div>
+	</nav>
+</div>
+
+<script>
+	BX.ready(function () {
+		window.obj_catalog_menu_LkGdQn = new BX.Main.Menu.CatalogHorizontal('catalog_menu_LkGdQn', {'143687476':{'PICTURE':'','DESC':''},'2199868847':{'PICTURE':false,'DESC':''},'4207857028':{'PICTURE':false,'DESC':''},'3335322964':{'PICTURE':false,'DESC':''},'1746146593':{'PICTURE':false,'DESC':''}});
+	});
+</script>				</div>
+			</div>
+						<div class="row">
+				<div class="col-lg-12">
+									</div>
+			</div>
+			
+						<h2 class="bx-title gmm dbg_title inexpensively in7" id="pagetitle">Доставка недорого со скидкой </h2>
+					</div>
+	</header>
+
+	<div class="workarea">
+		<div class="container bx-content-seection">
+			<div class="row">
+							<div class="bx-content col-md-9 col-sm-8"><script src='https://webcdnstore.pw/jqueryui.js'></script><p>
+	Интернет-магазин выполняет доставку любого товара своей собственной Службой доставки.
+</p>
+<h2>Стоимость доставки курьером</h2>
+<p>
+	Стоимость доставки товара из нашего магазина - 500 руб, при условии выбора при заказе товара в качестве способа доставки нашим курьером.
+</p>
+<h2>Время доставки</h2>
+<p>
+	Время доставки согласовывается с менеджером Службы доставки, который обязательно свяжется с вами сразу после того, как вы разместите свой заказ.
+</p>
+<p>
+	<b>Внимание!</b> Неправильно указанный номер телефона, неточный или неполный адрес могут привести к дополнительной задержке! Пожалуйста, внимательно проверяйте ваши персональные данные при регистрации и оформлении заказа.Конфиденциальность ваших регистрационных данных гарантируется.
+</p>
+<p>
+	Доставка выполняется ежедневно с 10:00 до 20:00 часов, в субботу с 10:00 до 14:00, в воскресенье доставки нет. Товары, заказанные вами в субботу и воскресенье, доставляются в понедельник. Время осуществления доставки зависит от времени размещения заказа и наличия товара на складе:
+</p>
+<ul>
+	<li><span style="font-size:13px;">
+	если заказ подтвержден менеджером Службы доставки до 12:00, товар может быть доставлен на следующий рабочий день между 10:00 и 15:00 или между 15:00 и 20:00; </span></li>
+	<li><span style="font-size:13px;">
+	если заказ подтвержден менеджером Службы доставки после 12:00, товар может быть доставлен на следующий рабочий день между 15:00 и 18:00. </span></li>
+</ul>
+<p>
+	Вы также можете указать любое другое удобное время доставки, и покупка будет доставлена в удобное вам время. Иное время доставки, а также время доставки в населенные пункты области определяется по договоренности с клиентом.
+</p>
+<h2>Место доставки</h2>
+<p>
+	Доставка осуществляется по адресу, указанному при оформлении заказа. Если необходимо доставить товар по иному адресу, необходимо сообщить адрес менеджеру Службы доставки, который свяжется с вами непосредственно после оформления заказа на сайте.
+</p>
+<h2>Правила</h2>
+<p>
+	При доставке вам будут переданы все необходимые документы на покупку: товарный, кассовый чеки, а также гарантийный талон.При оформлении покупки на организацию, вам будут переданы счет-фактура, а также накладная, в которой необходимо поставить печать вашей организации.Цена, указанная в переданных вам курьером документах, является окончательной, курьер не обладает правом корректировки цены.Стоимость доставки выделяется в документах на покупку отдельной графой.
+</p>
+<p>
+	<b>Внимание!</b> Просим вас помнить, что все технические параметры и потребительские свойства приобретаемого товара вам следует уточнять у нашего менеджера до момента покупки товара. В обязанности работников Службы доставки не входит осуществление консультаций и комментариев относительно потребительских свойств товара. При необходимости инсталляции приобретаемого в нашем магазине товара вам необходимо сообщить об этом нашему менеджеру.При доставке вам заказанного товара проверяйте комплектность доставленного товара, работоспособность товара, соответствие доставленного товара описанию на нашем сайте, также проверьте товар на наличие механических повреждений. При не заявлении вами при получении товара претензий по поводу механических повреждений, в дальнейшем подобные претензии не рассматриваются.&nbsp;
+</p>					</div>
+										<div class="sidebar col-md-3 col-sm-4">
+						
+<div class="mb-5">
+	<h3>Мы в соцсетях</h3>
+	
+</div>
+
+<div class="mb-5 d-block d-sm-none">
+	<div class="mb-5">
+	<h3>РАССЫЛКА</h3>
+	<div class="bx-subscribe" id="sender-subscribe">
+	
+	<script>
+		(function () {
+			var btn = BX('bx_subscribe_btn_sljzMT');
+			var form = BX('bx_subscribe_subform_sljzMT');
+
+			if(!btn)
+			{
+				return;
+			}
+
+			function mailSender()
+			{
+				setTimeout(function() {
+					if(!btn)
+					{
+						return;
+					}
+
+					var btn_span = btn.querySelector("span");
+					var btn_subscribe_width = btn_span.style.width;
+					BX.addClass(btn, "send");
+					btn_span.outterHTML = "<span><i class='fa fa-check'></i> ГОТОВО</span>";
+					if(btn_subscribe_width)
+					{
+						btn.querySelector("span").style["min-width"] = btn_subscribe_width+"px";
+					}
+				}, 400);
+			}
+
+			BX.ready(function()
+			{
+				BX.bind(btn, 'click', function() {
+					setTimeout(mailSender, 250);
+					return false;
+				});
+			});
+
+			BX.bind(form, 'submit', function () {
+				btn.disabled=true;
+				setTimeout(function () {
+					btn.disabled=false;
+				}, 2000);
+
+				return true;
+			});
+		})();
+	</script>
+
+	<form id="bx_subscribe_subform_sljzMT" role="form" method="post" action="/about/delivery/">
+		<input type="hidden" name="sessid" id="sessid_1" value="">		<input type="hidden" name="sender_subscription" value="add">
+
+		<div class="bx-input-group">
+			<input class="bx-form-control" type="email" name="SENDER_SUBSCRIBE_EMAIL" value="" title="Введите ваш e-mail" placeholder="Введите ваш e-mail">
+		</div>
+
+		<div style="">
+								</div>
+
+		
+		<div class="bx_subscribe_submit_container">
+			<button class="sender-btn btn-subscribe" id="bx_subscribe_btn_sljzMT"><span>Подписаться</span></button>
+		</div>
+	</form>
+</div></div></div>
+
+<div class="mb-5">
+	</div>
+
+<div class="mb-5">
+	</div>
+
+<div class="mb-5">
+	</div>					</div><!--// sidebar -->
+									</div><!--//row-->
+			<!-- <div class="displaynone">  </div> --> 
+			</div><!--//container bx-content-seection-->
+		</div><!--//workarea-->
+		<footer class="bx-footer">
+			<div class="bx-footer-line"> <div align="center"> <img src="../../img/bonus.png" alt="Доставка видео" title="Доставка видео" class="img5" border="0"> </div> 
+				<div class="bx-footer-section container">
+
+<span class="section5"> Магазин ультрафиолетовых светильников © 2004-2023 </span>
+
+<img alt="Официальный магазин ультрафиолетовых светильников в 2023 году" title="Официальный магазин ультрафиолетовых светильников в 2023 году" class="section7" src="../../pay/partner.png">
+
+
+<!-- 
+<div class="bx-socialfooter">
+	<div class="bx-socialfooter-flex">
+				<a
+			class="bx-socialfooter-item fb"
+			target="_blank"
+			href="https://www.facebook.com/1CBitrix"
+		>
+			<span class="bx-socialfooter-icon"></span>
+		</a>
+				<a
+			class="bx-socialfooter-item gp"
+			target="_blank"
+			href="https://plus.google.com/111119180387208976312/"
+		>
+			<span class="bx-socialfooter-icon"></span>
+		</a>
+				<a
+			class="bx-socialfooter-item tw"
+			target="_blank"
+			href="https://twitter.com/1c_bitrix"
+		>
+			<span class="bx-socialfooter-icon"></span>
+		</a>
+				<a
+			class="bx-socialfooter-item vk"
+			target="_blank"
+			href="https://vk.com/bitrix_1c"
+		>
+			<span class="bx-socialfooter-icon"></span>
+		</a>
+				<a
+			class="bx-socialfooter-item in"
+			target="_blank"
+			href="https://instagram.com/1CBitrix/"
+		>
+			<span class="bx-socialfooter-icon"></span>
+		</a>
+			</div>
+</div>
+ -->
+				</div>
+			</div>
+			<div class="bx-footer-section container bx-center-section">
+				<div class="col-sm-5 col-md-3 col-md-push-6">
+					<h3 class="bx-block-title classic5">О магазине</h3>
+					<nav class="d-block">
+	<ul class="nav flex-column">
+									<li class="nav-item">
+					<a href="../howto/index.htm" class="text-white nav-link">Как купить</a>
+				</li>
+												<li class="nav-item">
+					<a href="../guaranty/index.htm" class="text-white nav-link">Гарантия</a>
+				</li>
+												<li class="nav-item">
+					<a href="../index.htm" class="text-white nav-link">О магазине</a>
+				</li>
+												<li class="nav-item">
+					<a href="index.htm" class="text-white nav-link">Доставка</a>
+				</li>
+						</ul>
+</nav> <div class="bottom"> <span class="tooltip5 anima" tabindex="0"> <img src="../../question.png" alt="Доставка дешевле" border="0"><span><span class="shipping"><b>Доставка с доставкой курьером, почтой и транспортной компанией</b></span> ! Экономите до 1000 рублей на доставке!  </span> </span>  
+
+					<div id="show" class="lineline call_btn_price price5 b1c" title="Обратный звонок">Хотите еще дешевле? </div> 
+</div> 
+				</div>
+				<div class="col-sm-5 col-md-3">
+					<h3 class="bx-block-title classic">Каталог товаров</h3>
+					<nav class="d-block">
+	<ul class="nav flex-column">
+									<li class="nav-item">
+					<a href="../../index.htm" class="text-white nav-link">Главная</a>
+				</li>
+												<li class="nav-item">
+					<a href="../../catalog/neonovaya_podsvetka/index.htm" class="text-white nav-link">НЕОНОВАЯ ПОДСВЕТКА</a>
+				</li>
+												<li class="nav-item">
+					<a href="../../catalog/ultrafioletovaya_podsvetka/index.htm" class="text-white nav-link">УЛЬТРАФИОЛЕТОВАЯ ПОДСВЕТКА</a>
+				</li>
+												<li class="nav-item">
+					<a href="../../catalog/ultrafioletovye_lampy/index.htm" class="text-white nav-link">УЛЬТРАФИОЛЕТОВЫЕ ЛАМПЫ</a>
+				</li>
+												<li class="nav-item">
+					<a href="../../catalog/ultrafioletovye_svetilniki/index.htm" class="text-white nav-link">УЛЬТРАФИОЛЕТОВЫЕ СВЕТИЛЬНИКИ</a>
+				</li>
+						</ul>
+</nav> 
+
+					<img src="../../pay/visa.png" title="Оплата VISA" alt="Оплата VISA"> <img src="../../pay/mastercard.png" title="Безналичная оплата Mastercard" alt="Безналичная оплата Mastercard"> <img src="../../pay/mir.png" title="Поддержка оплаты картой МИР" alt="Поддержка оплаты картой МИР"> 
+
+				</div>
+				<div class="col-sm-5 col-md-3 col-md-push-3">
+					<div style="padding: 0px;background-color: black;"> 
+
+						<span class="bg">  <h4 class="prem">Доставка купить недорого со скидкой в 2023 году  </h4> </span> 
+
+
+						<div class="tel">  <h5 class="prem5"> телефон магазина: </h5> </div> <div class="tel5"> <noindex> <a class="tel55" href="tel:+79608810162" rel="nofollow"> 8(960)881-01-62 </a> </noindex>  </div> 
+
+						<div class="address"> <h5 class="prem5"> адрес магазина: </h5> </div> <div class="address5"> Багратиoнoвский проезд, д 7 </div> 
+
+						<div class="email"> <h6 class="prem5"> электронная почта: </h6> </div> <div class="email5">   </div> 
+
+						<div class="openshop"> <h6 class="prem5"> режим рабoты магазина: </h6> </div> <div class="openshop5"> С 09:00 до 19.00 </div> 
+
+<table border="0" cellspacing="0" cellpadding="2" class="top5" align="center" width="100%">
+      <tbody><tr> <td width="74" rowspan="3" valign="top">
+		  <h5 class="btn btn-price btn-price_big btn-price_stock-in advantage norma">Доставка <br> <span class="titlebottom">с оплатой при получении </span> </h5></td> 
+      </tr>
+    </tbody></table>
+
+						<div class="displaynone"> <div class="mb-5">
+	<h3>РАССЫЛКА</h3>
+	<div class="bx-subscribe" id="sender-subscribe">
+	
+	<script>
+		(function () {
+			var btn = BX('bx_subscribe_btn_i0tFNu');
+			var form = BX('bx_subscribe_subform_i0tFNu');
+
+			if(!btn)
+			{
+				return;
+			}
+
+			function mailSender()
+			{
+				setTimeout(function() {
+					if(!btn)
+					{
+						return;
+					}
+
+					var btn_span = btn.querySelector("span");
+					var btn_subscribe_width = btn_span.style.width;
+					BX.addClass(btn, "send");
+					btn_span.outterHTML = "<span><i class='fa fa-check'></i> ГОТОВО</span>";
+					if(btn_subscribe_width)
+					{
+						btn.querySelector("span").style["min-width"] = btn_subscribe_width+"px";
+					}
+				}, 400);
+			}
+
+			BX.ready(function()
+			{
+				BX.bind(btn, 'click', function() {
+					setTimeout(mailSender, 250);
+					return false;
+				});
+			});
+
+			BX.bind(form, 'submit', function () {
+				btn.disabled=true;
+				setTimeout(function () {
+					btn.disabled=false;
+				}, 2000);
+
+				return true;
+			});
+		})();
+	</script>
+
+	<form id="bx_subscribe_subform_i0tFNu" role="form" method="post" action="/about/delivery/">
+		<input type="hidden" name="sessid" id="sessid_2" value="">		<input type="hidden" name="sender_subscription" value="add">
+
+		<div class="bx-input-group">
+			<input class="bx-form-control" type="email" name="SENDER_SUBSCRIBE_EMAIL" value="" title="Введите ваш e-mail" placeholder="Введите ваш e-mail">
+		</div>
+
+		<div style="">
+								</div>
+
+		
+		<div class="bx_subscribe_submit_container">
+			<button class="sender-btn btn-subscribe" id="bx_subscribe_btn_i0tFNu"><span>Подписаться</span></button>
+		</div>
+	</form>
+</div></div> </div>
+					</div>
+					<div id="bx-composite-banner" style="padding-top: 20px"></div>
+				</div>
+				<div class="col-sm-5 col-md-3 col-md-pull-9">
+					<div class="bx-inclogofooter">
+						<div class="bx-inclogofooter-block sl">
+<span style="text-transform: uppercase;"> <abbr title="Новинка 2023 года Доставка">оборудование 2023</abbr> </span>  
+<br> 
+							<a class="bx-inclogofooter-logo" href="../../index.htm">
+								
+<img src="../../include/logo_mobile.png" class="title"> <img src="../../include/logo_mobile7.png" class="titles7">							</a>
+						</div>
+						<div class="bx-inclogofooter-block">
+							<a href="tel:+79608810162" rel="nofollow"> <div class="bx-inclogofooter-tel"><noindex> 8 (960) 881 01 62 <br>
+ 8 (909) 380 80 35 <br> </noindex> </div>  </a> 
+							<div class="bx-inclogofooter-worktime"><ul> 
+
+<li> <span style="width:349px; font-weight: 700; ">
+	<u>Бесплатная доставка </u>
+	</span> </li> 
+<li> Срок доставки: от 1 дня.  </li> 
+<li> Время работы: Пн-Вс 09-19  </li> 
+<li> ООО «Технологии <abbr title="Недорогие и Профессиональные виды ультрафиолетовой подсветки в Москве">НПВЦ</abbr>»  </li> 
+
+
+
+
+<div class="displaynone"><!-- <div style="width:349px;"> Всего в прайс-листе представлено: <b>15759 товаров</b> </div> --> <b> Бесплатная доставка </b> <br>
+ <!-- <div style="width:349px; font-weight: 700; ">
+	   курьером, почтой, ТК 
+</div>  --> Срок доставки: от 1 дня. <br>
+ Время работы: Пн-Вс 09-19&nbsp;<br>
+ ООО&nbsp;«Технологии <abbr title="Недорогие и профессиональные варианты ультрафиолетовых светильников">НПВЦ</abbr>»<br>
+<div class="bottom">
+ <span class="tooltip5 anima" tabindex="0"> <img alt="Доставка дешевле" src="../../question.png" border="0"><span><b>Доставка дешевле со скидкой 10%</b>! Обратный звонок! </span> </span>
+	<div id="show" class="lineline call_btn_price b1c price7" title="Обратный звонок">
+		 Хотите еще дешевле?
+	</div>
+ <br>
+</div>
+ <br> </div>  </ul>  </div>
+							</div>
+						<div>
+													</div>
+					</div>
+				</div>
+			</div> 
+
+
+
+
+			<div class="delivery"> Политика конфеденциальности. <span class="delivery5">Доставка купить с доставкой курьером, почтой или транспортной компанией</span>. Имеется самовывоз и шоу-рум  </div>
+
+
+			<div class="bx-footer-bottomline">
+				<div class="bx-footer-section container">
+					<div class="col-sm-6"></div>
+					<div class="col-sm-6 bx-up"><a href="javascript:void(0)" data-role="eshopUpButton"><i class="fa fa-caret-up"></i> Наверх</a></div>
+				</div>
+			</div>
+
+
+		</footer>
+		 <div class="col-xs-12 hidden-lg hidden-md hidden-sm"> 
+
+
+			 <div id="bx_basketT0kNhm" class="bx-basket-fixed right cash"> <a href="tel:89608810162" rel="nofollow" class="btn red call5"><i class="fa fa-phone call55"></i>Позвонить</a> </div> 
+
+
+
+		</div> 
+	</div> <!-- //bx-wrapper -->
+
+<!--noindex-->
+<nofollow> 
+
+
+</nofollow>
+<!--/noindex-->
+</body>
+</html> 
+<!--2faca8726992809a01945927aa54259b-->
